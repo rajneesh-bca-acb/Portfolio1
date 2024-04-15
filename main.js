@@ -33,8 +33,8 @@ window.addEventListener('scroll' , (e) => {
   let winScrollYValue = window.scrollY/heroSection.offsetHeight;
   
   if(winScrollYValue < 1){
-  heroContentH1.style.transform = `translateX(${winScrollYValue * -100}px)`;
-  heroContentH2.style.transform = `translateX(${winScrollYValue * 100}px)`;
+  heroContentH1.style.transform = `translateX(${winScrollYValue * -300}px)`;
+  heroContentH2.style.transform = `translateX(${winScrollYValue * 300}px)`;
   heroContentImg.style.transform = `translateY(${winScrollYValue * -100}px)`;
   heroSection.style.opacity = `${1 - winScrollYValue * 1.3}`
   header.style.backdropFilter = 'none';
